@@ -1,2 +1,4 @@
-source 'https://rubygems.org'
-gem 'github-pages'
+source "https://rubygems.org"
+
+gem "sass", "~> 3.4.0"
+gem "compass", "~> 1.0"
