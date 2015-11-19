@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
   <link rel="stylesheet" type="text/css" href="/css/style.css">
-<link rel="stylesheet" type="text/css" href="/css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+<link rel="stylesheet" type="text/css" href="/fonts/foundation-icons.css">
 <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.5/annotator.min.css">
 <script src="/js/vendor/modernizr.js"></script>
 <script type="text/x-mathjax-config">
@@ -38,7 +39,7 @@
 </div>
 
 <div class="row" id="content">
-    <div class="medium-9 small-12 columns">
+    <div class="medium-8 small-12 columns">
     <h3>The Heisenberg Uncertainty Principle</h3>
 <p><a href="https://en.wikipedia.org/wiki/Werner_Heisenberg" targat="_blank">Werner Heisenberg</a> (1901-1976) concluded in 1927 that there is a fundamental limitation to just how precisely we can know both the position and the velocity of a particle at any given time. This limitation arises from the very duality of matter. Why?</p>
 <p>
@@ -56,23 +57,31 @@ If a particle is very small, in order to locate it accurately we must use radiat
   <h3>The Schr&ouml;dinger Equation</h3>
   <p><a href="https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger" target="_blank">Erwin Schrödinger (1887-1961)</a> addressed the problem of atomic structure by giving emphasis to the wave properties of electrons. Schrödinger’s equation is deceptively brief:</p>
   $$
-  H \Psy = E \Psy
+  H\Psi = E\Psi
+  $$
+  What this means is: <em>The <strong><a href="https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)" target="_blank">Hamiltonian Operator (H)</a></strong> acting on the wave function (&Psi;) gives the energy of the function.</em>
 
   </div>
-  <div class="medium-3 hide-for-small columns">
-    <ul class="accordion" data-accordion>
+  <div class="medium-4 hide-for-small columns">
+    <ul class="accordion" data-accordion class="sidebar">
   <li class="accordion-navigation">
     <a href="#panel-chapter-1">Chapter 1</a>
-    <div id="panel-chapter-1" class="content">
-      <a href="/chapter1/1-1-basic-properties-of-matter.html">1.1 Basic Properties of Matter</a><br/>
-      <a href="/chapter1/1-2-changes-in-matter.html">1.2 Changes in Matter</a><br/>
-      <a href="/chapter1/1-3-classification-of-matter.html">1.3 Classification of Matter</a>
+    <div id="panel-chapter-1" class="content sidebar">
+      <ul>
+      <li><a href="/chapter1/1-1-basic-properties-of-matter.html" class="sidebar-link">1.1 Basic Properties of Matter</a></li>
+      <li><a href="/chapter1/1-2-changes-in-matter.html" class="sidebar-link">1.2 Changes in Matter</a></li>
+      <li><a href="/chapter1/1-3-classification-of-matter.html" class="sidebar-link">1.3 Classification of Matter</a></li>
     </div>
   </li>
   <li class="accordion-navigation">
     <a href="#panel-chapter-2">Chapter 2</a>
     <div id="panel-chapter-2" class="content">
-      <a href="/chapter2/2-1-development-of-atomic-theory">2.1 Development of Atomic Theory</a>
+      <ul>
+      <li><a href="/chapter2/2-1-development-of-atomic-theory.html" class="sidebar-link">2.1 Development of Atomic Theory</a></li>
+      <li><a href="/chapter2/2-2-understanding-light.html" class="sidebar-link">2.2 Understanding Light</a></li>
+      <li><a href="/chapter2/2-3-bohr-planetary-model.html" class="sidebar-link">2.3 Bohr &amp; the Planetary Model</a></li>
+      <li><a href="/chapter2/2-4-quantum-mechanical-model.html" class="sidebar-link">2.4 The Quantum Atom</a></li>
+    </ul>
     </div>
   </li>
 </ul>
