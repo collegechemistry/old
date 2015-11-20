@@ -4,6 +4,7 @@ p {text-align: justify;}
 
 img.center {margin:0px auto 0px auto;}
 
-
+.row {max-width: 75rem;}
 //Sidebar Nav
-.accordion .content a {font-size:0.75em;}
+.sidebar {background-color:#fafafa;}
+a.sidebar-link {font-size:0.75rem!important;}
